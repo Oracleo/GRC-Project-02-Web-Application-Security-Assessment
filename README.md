@@ -1,14 +1,15 @@
-```markdown
-
 # Web Application Vulnerability Assessment with Burp Suite
+
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Security%20Assessment-red?style=for-the-badge&logo=security&logoColor=white)
+![SOC](https://img.shields.io/badge/SOC-Level%201-blue?style=for-the-badge&logo=shield&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Web%20Security-orange?style=for-the-badge&logo=burpsuite&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-Top%2010-green?style=for-the-badge&logo=owasp&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-Testing%20Platform-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
 **Project Type:** SOC Level 1 Security Assessment  
 **Tools Used:** Burp Suite Community Edition, DVWA, Kali Linux, VirtualBox  
-without missing anything re-write it for github, so that i can directly paste it to edit section of readme.md file. **Date:** February 2026
-
-
-
-
+**Date:** February 2026
 
 ---
 
@@ -56,7 +57,6 @@ This assessment simulates real-world security testing that SOC analysts perform 
 ## 🛠️ Lab Environment Setup
 
 ### Architecture Overview
-
 ```
 Windows 10 Host (Wi-Fi)
     │
@@ -85,7 +85,6 @@ Windows 10 Host (Wi-Fi)
 ![Kali IP Configuration](screenshots/SOC4_01_kali_ip_address.png)
 
 **Install and Configure DVWA:**
-
 ```bash
 # Update package repository
 sudo apt update
@@ -103,7 +102,6 @@ sudo systemctl start mysql
 ![MySQL Running](screenshots/SOC4_03_mysql_running.png)
 
 **Database Setup:**
-
 ```sql
 # Create DVWA database and user
 sudo mysql -u root
@@ -118,7 +116,6 @@ EXIT;
 ![MySQL Database Setup](screenshots/SOC4_04_mysql_database_setup.png)
 
 **Create symbolic link for web access:**
-
 ```bash
 sudo ln -s /usr/share/dvwa /var/www/html/dvwa
 ```
@@ -126,7 +123,6 @@ sudo ln -s /usr/share/dvwa /var/www/html/dvwa
 #### **Step 2: Initialize DVWA**
 
 Access DVWA setup page in Firefox:
-
 ```
 http://10.83.80.7/dvwa/setup.php
 ```
@@ -383,7 +379,6 @@ Username and/or password incorrect.
 ![Burp Brute Force Analysis](screenshots/SOC4_20_burp_brute_force_analysis.png)
 
 **Critical Security Flaw - Credentials in URL:**
-
 ```http
 GET /dvwa/vulnerabilities/brute/?username=admin&password=3232&Login=Login HTTP/1.1
 ```
@@ -400,7 +395,6 @@ GET /dvwa/vulnerabilities/brute/?username=admin&password=3232&Login=Login HTTP/1
 
 **Automated Brute Force:**
 An attacker can use tools like Burp Intruder or Hydra to test thousands of password combinations:
-
 ```bash
 hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.83.80.7 http-get-form "/dvwa/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:Username and/or password incorrect"
 ```
@@ -459,7 +453,6 @@ Cookie: security=low; PHPSESSID=cb6c2c8008bacc26e10a8795c2efd72
 **Malicious Link:**
 
 An attacker can craft a URL and send it to the victim:
-
 ```html
 <img src="http://10.83.80.7/dvwa/vulnerabilities/csrf/?password_new=hacked123&password_conf=hacked123&Change=Change" />
 ```
@@ -505,7 +498,6 @@ $result = $stmt->fetchAll();
 ```
 
 **B. Input Validation**
-
 ```php
 // Whitelist validation
 $id = filter_var($_GET['id'], FILTER_VALIDATE_INT);
@@ -548,7 +540,6 @@ Content-Security-Policy: default-src 'self'; script-src 'self'; object-src 'none
 ```
 
 **C. Input Validation**
-
 ```php
 // Sanitize input
 $name = filter_var($_GET['name'], FILTER_SANITIZE_STRING);
@@ -563,7 +554,6 @@ $name = filter_var($_GET['name'], FILTER_SANITIZE_STRING);
 #### Recommended Solutions:
 
 **A. Implement Rate Limiting**
-
 ```php
 // Allow only 5 attempts per 15 minutes per IP
 $max_attempts = 5;
@@ -609,7 +599,6 @@ Encrypt credentials in transit with TLS/SSL.
 **A. Implement Anti-CSRF Tokens**
 
 ✅ **Secure Implementation:**
-
 ```php
 // Generate token
 session_start();
@@ -632,7 +621,6 @@ if (!hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'])) {
 - Never use GET for operations that modify data
 
 **C. Require Re-authentication for Sensitive Actions**
-
 ```php
 // Require current password when changing password
 if (!verify_password($_POST['current_password'], $user['password'])) {
@@ -641,7 +629,6 @@ if (!verify_password($_POST['current_password'], $user['password'])) {
 ```
 
 **D. SameSite Cookie Attribute**
-
 ```php
 setcookie("PHPSESSID", $session_id, [
     'samesite' => 'Strict',
@@ -771,7 +758,3 @@ This project is for educational purposes only. DVWA should only be used in isola
 ---
 
 **⭐ If you found this project helpful, please consider giving it a star!**
-
-```
-
-**COPY THIS ENTIRE TEXT AND SAVE IT AS `README.md` IN YOUR PROJECT FOLDER.**
