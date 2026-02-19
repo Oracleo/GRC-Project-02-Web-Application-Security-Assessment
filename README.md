@@ -84,23 +84,23 @@ Security vulnerabilities like those identified in this assessment cost organizat
 ┌─────────────────────────────────────────────────────────────┐
 │                    Windows 10 Host (Wi-Fi)                  │
 │                                                             │
-│  ┌──────────────────────┐      ┌──────────────────────┐   │
-│  │   Firefox Browser    │◄─────┤   Burp Suite Proxy   │   │
-│  │  Proxy: 127.0.0.1    │      │   Port: 8080         │   │
-│  └──────────────────────┘      └──────────┬───────────┘   │
-│                                            │               │
-└────────────────────────────────────────────┼───────────────┘
+│  ┌──────────────────────┐      ┌──────────────────────┐     │
+│  │   Firefox Browser    │◄─────┤   Burp Suite Proxy   │     │
+│  │  Proxy: 127.0.0.1    │      │   Port: 8080         │     │
+│  └──────────────────────┘      └──────────┬───────────┘     │
+│                                            │                │
+└────────────────────────────────────────────┼─────────────── ┘
                                              │
                           Bridged Network    │
                                              ▼
                      ┌───────────────────────────────────┐
                      │    Kali Linux VM (10.83.80.7)     │
                      │                                   │
-                     │  ┌─────────────────────────────┐ │
-                     │  │  Apache Web Server          │ │
-                     │  │  MySQL Database             │ │
-                     │  │  DVWA Application           │ │
-                     │  └─────────────────────────────┘ │
+                     │  ┌─────────────────────────────┐  │
+                     │  │  Apache Web Server          │  │
+                     │  │  MySQL Database             │  │
+                     │  │  DVWA Application           │  │
+                     │  └─────────────────────────────┘  │
                      └───────────────────────────────────┘
 ```
 
@@ -1188,14 +1188,6 @@ This project showcases competencies essential for **SOC Level 1 Security Analyst
 
 ## 🎓 Tools & Technologies
 
-### Security Tools
-
-| Tool | Purpose | Proficiency |
-|------|---------|------------|
-| **Burp Suite Community Edition** | Web application security testing, HTTP proxy | ⭐⭐⭐⭐⭐ |
-| **DVWA** | Vulnerable web application for testing | ⭐⭐⭐⭐⭐ |
-| **Kali Linux** | Penetration testing platform | ⭐⭐⭐⭐ |
-
 ### Infrastructure
 
 | Component | Version | Purpose |
@@ -1299,43 +1291,6 @@ The skills demonstrated here directly transfer to:
 - Web application penetration testing
 - Security code review
 
----
-
-## 🚀 Next Steps
-
-### Continued Learning
-
-To further develop security skills, next projects will focus on:
-
-1. **Advanced Burp Suite Features**
-   - Burp Intruder for automated attacks
-   - Burp Repeater for request manipulation
-   - Burp Scanner (Professional) for automated vulnerability discovery
-
-2. **Additional Vulnerability Types**
-   - XML External Entity (XXE) injection
-   - Server-Side Request Forgery (SSRF)
-   - Insecure Deserialization
-   - Security Misconfigurations
-
-3. **Automation & Scripting**
-   - Python scripts for vulnerability scanning
-   - Custom Burp Suite extensions
-   - Automated report generation
-
-4. **Certifications**
-   - Certified Ethical Hacker (CEH)
-   - Offensive Security Certified Professional (OSCP)
-   - GIAC Web Application Penetration Tester (GWAPT)
-
----
-
-## 📬 Contact Information
-
-**LinkedIn:** [Your LinkedIn Profile URL]  
-**GitHub:** [Your GitHub Profile URL]  
-**Email:** [your.email@example.com]  
-**Portfolio:** [your-portfolio-website.com]
 
 ---
 
@@ -1408,24 +1363,6 @@ This security assessment was conducted in a **controlled, isolated lab environme
 2. DVWA GitHub - https://github.com/digininja/DVWA
 3. Kali Linux Documentation - https://www.kali.org/docs/
 
----
-
-## 📜 License
-
-This project and its documentation are released under the **MIT License** for educational purposes.
-
-### MIT License
-```
-Copyright (c) 2026 [Your Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and documentation files, to deal in the Software without
-restriction, including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED. Use at your own risk for educational purposes only.
-```
 
 ---
 
@@ -1437,15 +1374,6 @@ IMPLIED. Use at your own risk for educational purposes only.
 
 **⭐ If you found this project helpful for your security career, please give it a star!**
 
----
-
-## 🔐 Security Notice
-
-If you discover any security vulnerabilities in this project's documentation or methodology, please report them responsibly:
-
-**Security Contact:** [security@your-email.com]
-
-**PGP Key:** [Your PGP Public Key Fingerprint]
 
 ---
 
@@ -1454,15 +1382,3 @@ If you discover any security vulnerabilities in this project's documentation or 
 **Documentation Version:** 1.0
 
 ---
-
-<div align="center">
-
-### 🎓 Ready to Contribute to Your Security Team
-
-**This project demonstrates practical, job-ready skills for SOC L1 Analyst positions.**
-
-[View My LinkedIn](your-linkedin-url) • [View My GitHub](your-github-url) • [Contact Me](mailto:your-email)
-
-**Built with 🔒 by [Your Name]**
-
-</div>
