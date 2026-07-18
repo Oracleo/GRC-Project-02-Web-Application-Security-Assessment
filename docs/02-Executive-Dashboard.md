@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 Key Performance Indicators (KPIs) at a Glance
+## Key Performance Indicators (KPIs) at a Glance
 
 | Metric | Value | Status |
 |:---|:---:|:---:|
@@ -20,7 +20,7 @@
 
 ---
 
-## 📈 Compliance Posture Assessment
+## Compliance Posture Assessment
 
 | Framework | Status | Key Findings Impacting Compliance |
 |:---|:---:|:---|
@@ -31,7 +31,7 @@
 
 ---
 
-## 📋 Remediation Roadmap (Priority Funnel)
+## Remediation Roadmap (Priority Funnel)
 
 | Priority | Finding | Target Status | Owner | Due Date |
 |:---:|:---|:---:|:---:|:---:|
