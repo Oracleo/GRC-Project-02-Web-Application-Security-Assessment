@@ -23,4 +23,4 @@ Because this asset handles customer PII and authentication data, the business im
 | **XSS (Session Hijack)** | Attacker steals admin session cookies and compromises the admin panel. | Loss of customer trust and data integrity. | Litigation from customers whose data was stolen. |
 
 ## 8.3 Conclusion on Priority Scoring
-The **SQL Injection** (CVSS 9.8) finding is escalated to a board-level *Critical P1*. While patching code is cheap, the *risk* is the exposure of 500,000 customer records. The priority matrix in the Risk Register (`03`) is directly driven by this high-value business context.
+The **SQL Injection** (CVSS 9.8) finding is escalated to a board-level *Critical P1*. While patching code is cheap, the *risk* is the exposure of 500,000 customer records. The priority matrix in the Risk Register (`05`) is directly driven by this high-value business context.
