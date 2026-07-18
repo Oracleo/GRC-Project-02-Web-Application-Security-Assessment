@@ -22,7 +22,7 @@ A GRC analyst engaging in a web application assessment is expected to:
 - Map weaknesses to specific framework controls (e.g., ISO 27001 Annex A.8.28 Secure Coding).
 - Produce audit-grade documentation with business impact analysis, cost justification, and residual risk acceptance.
 
-**Outcome:** This project successfully identified 4 High/Critical vulnerabilities (SQL Injection, Brute Force, XSS, and CSRF). Findings were formalized into an **11-document GRC portfolio**, directly replicable as an internal corporate audit deliverable.
+**Outcome:** This project successfully identified 4 (1 Critical, 2 High, 1 Medium) vulnerabilities (SQL Injection, Brute Force, XSS, and CSRF). Findings were formalized into an **11-document GRC portfolio**, directly replicable as an internal corporate audit deliverable.
 
 ---
 
