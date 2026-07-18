@@ -1,9 +1,9 @@
 # 1. Executive Summary
 
-**Date of Assessment:** February 19, 2026
-**Conducted By:** [Your Name]
-**Assessment Type:** Manual Web Application Security Assessment (Unauthenticated & Authenticated)
-**Target Application:** Public-Facing Customer Self-Service Portal (DVWA Simulation)
+*  **Date of Assessment:** February 19, 2026
+*  **Conducted By:** Niladri Biswas
+*  **Assessment Type:** Manual Web Application Security Assessment (Unauthenticated & Authenticated)
+*  **Target Application:** Public-Facing Customer Self-Service Portal (DVWA Simulation)
 
 ## Situation Overview
 A manual security assessment was conducted on the organization's web application to evaluate the efficacy of existing application security controls. The assessment utilized the OWASP Web Security Testing Guide (WSTG) as the framework of choice. The application was tested for common vulnerabilities in the OWASP Top 10 (2021), including injection flaws, authentication weaknesses, and broken access controls.
