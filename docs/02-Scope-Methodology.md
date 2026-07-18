@@ -1,8 +1,8 @@
 # 2. Assessment Scope & Technical Methodology
 
-**Document Type:** Terms of Reference (ToR)
-**Assessment Period:** February 18 – 19, 2026
-**Assessment Owner:** [Your Name]
+*  **Document Type:** Terms of Reference (ToR)
+*  **Assessment Period:** February 18 – 19, 2026
+*  **Assessment Owner:** Niladri Biswas
 
 ## 2.1 Purpose
 To conduct a formal Web Application Risk Assessment. The objective is to identify technical vulnerabilities in the application logic, validate their exploitability, quantify business impact, and provide a prioritized remediation plan aligned with OWASP Top 10, ISO 27001, and NIST CSF.
