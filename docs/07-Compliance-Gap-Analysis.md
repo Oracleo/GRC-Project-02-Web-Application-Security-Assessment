@@ -1,4 +1,4 @@
-# 5. Compliance Gap Analysis (ISO, NIST, PCI DSS, GDPR)
+# 7. Compliance Gap Analysis (ISO, NIST, PCI DSS, GDPR)
 
 This document maps the identified technical vulnerabilities to specific regulatory frameworks, demonstrating the direct governance impact of the application flaws.
 
