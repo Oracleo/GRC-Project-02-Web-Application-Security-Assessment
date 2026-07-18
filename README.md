@@ -3,7 +3,7 @@
 ![Burp Suite](https://img.shields.io/badge/Tool-Burp%20Suite%20CE%20v2026.1.3-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![OWASP](https://img.shields.io/badge/Methodology-OWASP%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Platform-Kali%20Linux%202026-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Findings](https://img.shields.io/badge/Findings-4%20High%2FCritical-DC143C?style=for-the-badge)
+![Findings](https://img.shields.io/badge/Findings-1%20Critical%20%7C%202%20High%20%7C%201%20Medium-FF0000?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-28A745?style=for-the-badge)
 ![Framework](https://img.shields.io/badge/Framework-ISO%2027001%20%7C%20NIST%20CSF-0057A8?style=for-the-badge)
 ![Scoring](https://img.shields.io/badge/Risk%20Scoring-CVSS%20v3.0-blueviolet?style=for-the-badge)
