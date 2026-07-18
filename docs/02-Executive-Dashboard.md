@@ -16,7 +16,9 @@
 | **Medium (P3)** | 1 (CSRF) | 🟡 **Scheduled Action** |
 | **Asset Criticality** | High (PII Data) | 🔴 **High Impact Potential** |
 | **Average CVSS Score** | 7.8 (High) | ⚠️ **Risk Exposure** |
-| **Estimated EPSS (90-Day)** | ~54% (Average Exploit Probability) | ⚠️ **High Active Threat Level** |
+| **Exploit Likelihood (Qualitative)** | Very High (Public-facing, unauthenticated endpoints) | ⚠️ **High Active Threat Level** |
+
+> **Methodology Note:** Because these findings are bespoke application-logic vulnerabilities (which lack assigned CVE IDs), the industry-standard EPSS (Exploit Prediction Scoring System) cannot be technically applied. Instead, a **Qualitative Exploit Likelihood** is utilized based on OWASP threat modeling and the inherent exploitability of the vulnerability classes (as detailed in `docs/03-Scope-Methodology.md` and `docs/07-Compliance-Gap-Analysis.md`).
 
 ---
 
