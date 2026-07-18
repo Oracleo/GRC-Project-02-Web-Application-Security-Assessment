@@ -27,7 +27,7 @@
 
 ---
 
-## 🎯 GRC Relevance — Why This Project
+## GRC Relevance — Why This Project
 
 Web application risk assessment is a core GRC control activity. It provides the evidence base for application security controls under ISO 27001, NIST CSF, and regulatory frameworks including GDPR, PCI DSS, and SOC 2. A GRC analyst engaging in or reviewing a web application assessment is expected to:
 
@@ -45,7 +45,7 @@ This project simulates that engagement end-to-end. **Burp Suite Community Editio
 
 ---
 
-## 📊 Risk Findings Summary
+## Risk Findings Summary
 
 | # | Vulnerability | Severity | CVSS v3.0 | OWASP Top 10 | MITRE ATT&CK | GRC Priority |
 |---|---|---|---|---|---|---|
@@ -58,7 +58,7 @@ This project simulates that engagement end-to-end. **Burp Suite Community Editio
 
 ---
 
-## 🏗️ Lab Architecture
+## Lab Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -95,7 +95,7 @@ This project simulates that engagement end-to-end. **Burp Suite Community Editio
 
 ---
 
-## 🧰 Tools & Environment
+## Tools & Environment
 
 | Tool | Version | Purpose |
 |---|---|---|
@@ -109,7 +109,7 @@ This project simulates that engagement end-to-end. **Burp Suite Community Editio
 
 ---
 
-## 🔧 Assessment Methodology
+## Assessment Methodology
 
 This assessment follows the **OWASP Web Security Testing Guide (WSTG)** — the industry-standard methodology for web application security testing.
 
@@ -207,7 +207,7 @@ Traffic interception confirmed — Burp capturing all DVWA requests:
 
 ---
 
-## 🔍 Critical Risk Findings — Deep Dive
+## Critical Risk Findings — Deep Dive
 
 ---
 
@@ -539,7 +539,7 @@ Additional controls: change to HTTP POST for all state-changing operations, impl
 
 ---
 
-## 📋 Risk Register & Remediation Priority Matrix
+## Risk Register & Remediation Priority Matrix
 
 | Priority | Finding | CVSS | Business Impact | Compliance Violation | Treatment | Timeline |
 |---|---|---|---|---|---|---|
@@ -562,7 +562,7 @@ Additional controls: change to HTTP POST for all state-changing operations, impl
 
 ---
 
-## 📚 GRC Concepts Applied
+## GRC Concepts Applied
 
 | Concept | Application in This Project |
 |---|---|
@@ -598,7 +598,7 @@ It is the internationally recognised baseline for web application security requi
 
 ---
 
-## 📸 Screenshots Index
+## Screenshots Index
 
 | # | Filename | Description |
 |---|---|---|
@@ -628,7 +628,7 @@ It is the internationally recognised baseline for web application security requi
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 GRC2-Web-Application-Risk-Assessment-OWASP/
@@ -639,10 +639,20 @@ GRC2-Web-Application-Risk-Assessment-OWASP/
     ├── GRC2_01_kali_ip_address.png
     ├── GRC2_02 through GRC2_22 ...
 ```
+## GRC Formal Documentation (Audit Artifacts)
 
+For a structured, business-aligned perspective on this assessment, refer to the formal documentation in the `/docs/` folder:
+
+*   `01-Executive-Summary.md` - Non-technical overview for stakeholders.
+*   `02-Scope-Methodology.md` - Formal terms of reference.
+*   `03-Risk-Register.md` - Detailed risk prioritization and scoring.
+*   `04-Remediation-Tracker.md` - Cost-benefit analysis and SDLC integration.
+*   `05-Compliance-Gap-Analysis.md` - Mapped to ISO 27001, NIST CSF, PCI DSS, and GDPR.
+*   `06-Asset-Business-Criticality.md` - Contextualizing the application's business function.
+*   `07-MITRE-ATTACK-Mapping.md` - Mapping findings to adversary tactics and techniques.
 ---
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 > This assessment was conducted entirely in a **controlled, isolated VirtualBox lab environment** for educational purposes. DVWA is a deliberately vulnerable application created specifically for security training. It was deployed on a private VM with no internet exposure. No real-world systems, networks, production applications, or user data were involved. All activities were performed legally and ethically within a self-contained personal lab.
 
