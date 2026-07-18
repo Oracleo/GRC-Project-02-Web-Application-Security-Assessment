@@ -1,6 +1,6 @@
 # 10. Residual Risk Assessment
 
-GRC is not about fixing every single vulnerability. It is about treating risk to align with the organization's **Risk Appetite**. Once we implement controls from the `04-Remediation-Tracker.md`, the risk doesn't vanish—it becomes **Residual Risk**.
+GRC is not about fixing every single vulnerability. It is about treating risk to align with the organization's **Risk Appetite**. Once we implement controls from the `06-Remediation-Tracker.md`, the risk doesn't vanish—it becomes **Residual Risk**.
 
 This document outlines the transition from **Inherent Risk** (Risk before controls) to **Residual Risk** (Risk after controls), and obtains formal management buy-in for the remaining exposure.
 
