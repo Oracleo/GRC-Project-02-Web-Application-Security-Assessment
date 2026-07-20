@@ -1,4 +1,4 @@
-# 8. Asset Business Criticality & Context Analysis
+# 8. Asset Business Criticality
 
 In a professional GRC environment, a vulnerability against a test environment is vastly different from a vulnerability against a live production system. For the purposes of this risk engagement, we place the DVWA application into a realistic business context to accurately score the risk.
 
