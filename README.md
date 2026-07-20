@@ -26,7 +26,7 @@ A GRC analyst engaging in a web application assessment is expected to:
 
 ---
 
-## Project at a Glance (For Recruiters & Hiring Managers)
+## Project at a Glance
 
 | Area | Details |
 |:---|:---|
