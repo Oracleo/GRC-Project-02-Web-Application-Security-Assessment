@@ -1,6 +1,6 @@
 # 2. Executive Dashboard
 
-**Assessment Date:** February 19, 2026
+**Assessment Date:** 13 October 2025
 **Assessment Type:** Manual Web Application Security Assessment
 **Target Application:** `CustomerHub` Self-Service Portal (Simulated)
 
@@ -33,7 +33,7 @@
 
 ---
 
-## Remediation Roadmap (Priority Funnel)
+## Remediation Roadmap
 
 | Priority | Finding | Target Status | Owner | Due Date |
 |:---:|:---|:---:|:---:|:---:|
