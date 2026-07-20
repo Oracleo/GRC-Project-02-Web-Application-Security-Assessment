@@ -1,6 +1,6 @@
 # 1. Executive Summary
 
-*  **Date of Assessment:** February 19, 2026
+*  **Date of Assessment:** 13 October 2025
 *  **Conducted By:** Niladri Biswas
 *  **Assessment Type:** Manual Web Application Security Assessment (Unauthenticated & Authenticated)
 *  **Target Application:** Public-Facing Customer Self-Service Portal (DVWA Simulation)
