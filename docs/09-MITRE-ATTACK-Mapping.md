@@ -1,4 +1,4 @@
-# 9. MITRE ATT&CK Threat Actor Mapping
+# 9. MITRE ATT&CK Mapping
 
 Mapping our web application findings to MITRE ATT&CK allows us to visualize exactly how a real-world threat actor would chain these vulnerabilities together to breach the organization.
 
