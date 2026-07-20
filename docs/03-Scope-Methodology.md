@@ -1,7 +1,7 @@
 # 3. Assessment Scope & Technical Methodology
 
 **Document Type:** Terms of Reference (ToR)
-**Assessment Period:** February 18 – 19, 2026
+**Assessment Period:** 13-15 October 2025
 **Assessment Owner:** Niladri Biswas
 
 ## 3.1 Purpose
