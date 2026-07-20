@@ -1,4 +1,4 @@
-# 4. Assumed Business Context & Risk Appetite
+# 4. Assumed Business Context
 
 In a professional GRC engagement, technical findings cannot be reported in a vacuum. The assessment must align with the organization's *Risk Appetite* and *Business Objectives*. 
 
