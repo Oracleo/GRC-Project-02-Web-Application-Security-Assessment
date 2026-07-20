@@ -52,7 +52,7 @@ This repository is structured to mirror a professional GRC consultant's audit fi
 | **`artifacts/`** | Raw Burp Suite intercept logs, request/response dumps, and vulnerability exploitation evidence. |
 | **`screenshots/`** | 23 annotated screenshots documenting the lab setup, Burp Suite intercepts, and vulnerability exploitation. |
 
-## Screenshots Index (23 Image Evidence)
+## Screenshots Index
 
 Below is the complete screenshot inventory documenting the entire assessment lifecycle — from Kali Linux setup and DVWA deployment, to Burp Suite interception, vulnerability discovery, and exploitation validation.
 
