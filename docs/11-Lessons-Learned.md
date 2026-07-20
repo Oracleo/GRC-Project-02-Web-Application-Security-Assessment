@@ -1,4 +1,4 @@
-# 11. Lessons Learned & Continuous Improvement
+# 11. Lessons Learned
 
 Every GRC engagement should conclude with an After-Action Review (AAR). Documenting "Lessons Learned" demonstrates self-awareness, a commitment to continuous improvement, and an understanding that security is an iterative process.
 
@@ -21,4 +21,4 @@ Every GRC engagement should conclude with an After-Action Review (AAR). Document
 2.  **Include an Authenticated Phase:** If production credentials were provided, I could have tested for Horizontal/Vertical Privilege Escalation—currently a gap in this unauthenticated assessment.
 3.  **Add a Penetration Testing Roadmap:** Future reports should include a "Pentesting Roadmap" that outlines the specific endpoints and business logic flows tested, allowing auditors to verify coverage.
 
-> **Final GRC Takeaway:** Vulnerabilities will always exist. The job of a GRC analyst is to identify them, demonstrate their business risk, propose cost-effective controls, and formally track their resolution. This project successfully demonstrated that entire lifecycle.
+> **GRC Conclusion:** Vulnerabilities will always exist. The job of a GRC analyst is to identify them, demonstrate their business risk, propose cost-effective controls, and formally track their resolution. This project successfully demonstrated that entire lifecycle.
