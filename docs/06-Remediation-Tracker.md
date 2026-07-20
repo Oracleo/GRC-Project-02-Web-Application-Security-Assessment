@@ -1,4 +1,4 @@
-# 6. Remediation & Treatment Plan Tracker
+# 6. Remediation Tracker
 
 This artifact tracks the remediation plan with a **Cost-Benefit Analysis** to justify developer sprint time, and integrates actions into the **Software Development Lifecycle (SDLC)** to prevent recurrence.
 
