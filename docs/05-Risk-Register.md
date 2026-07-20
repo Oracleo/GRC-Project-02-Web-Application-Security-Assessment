@@ -1,4 +1,4 @@
-# 5. Risk Register & Business Impact Analysis
+# 5. Risk Register
 
 This register serves as the master document for tracking identified application weaknesses. Risks are quantified using **CVSS v3.0**, **CVSS Vector Strings**, and **Qualitative Business Impact (Low/Medium/High/Critical)**.
 
